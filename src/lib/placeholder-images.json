@@ -1,0 +1,28 @@
+{
+  "placeholderImages": [
+    {
+      "id": "project-1",
+      "description": "NEPA AI login interface",
+      "imageUrl": "/images/project-1.png",
+      "imageHint": "AI platform login screen"
+    },
+    {
+      "id": "project-2",
+      "description": "Mycelium construction conflict prevention platform",
+      "imageUrl": "/images/project-2.png",
+      "imageHint": "construction AI dashboard"
+    },
+    {
+      "id": "project-3",
+      "description": "Sky Racer game interface",
+      "imageUrl": "/images/project-3.png",
+      "imageHint": "browser game interface"
+    },
+    {
+      "id": "project-4",
+      "description": "Developer portfolio website",
+      "imageUrl": "/images/billy_background.png",
+      "imageHint": "portfolio website"
+    }
+  ]
+}
