@@ -12,6 +12,11 @@ import {
   Database,
   type LucideIcon,
   SquareStack,
+  Code,
+  Cpu,
+  Bot,
+  Cloud,
+  Cog,
 } from 'lucide-react';
 
 export const projects = [
@@ -21,8 +26,8 @@ export const projects = [
     description: 'AI-powered platform designed to introduce users to artificial intelligence. Streamlined interface for exploring AI capabilities and getting started with intelligent automation.',
     tech: ['Next.js', 'TypeScript', 'OpenAI API', 'React', 'Tailwind CSS'],
     imageUrlId: 'project-1',
-    githubUrl: 'https://github.com/bkennedyshit',
-    liveUrl: '#',
+    primaryUrl: 'https://nepa-ai.com/agents/',
+    primaryLabel: 'Live Demo',
   },
   {
     id: 'project-2',
@@ -30,8 +35,8 @@ export const projects = [
     description: 'AI That Prevents $500K+ Construction Conflicts. Upload your project schedule and detect conflicts before trades arrive on site. Save millions in delays, rework, and coordination costs.',
     tech: ['Next.js', 'AI/ML', 'TypeScript', 'Construction Tech', 'Automation'],
     imageUrlId: 'project-2',
-    githubUrl: 'https://github.com/bkennedyshit',
-    liveUrl: 'https://mycelium.app',
+    primaryUrl: 'https://nepa-ai.com/agents/',
+    primaryLabel: 'View Webpage',
   },
   {
     id: 'project-3',
@@ -39,17 +44,19 @@ export const projects = [
     description: 'Fly Through The City! An interactive browser-based game where you dodge obstacles, collect rings, and rack up points. Built with engaging gameplay mechanics and smooth controls.',
     tech: ['JavaScript', 'HTML5 Canvas', 'Game Development', 'Web Animation'],
     imageUrlId: 'project-3',
-    githubUrl: 'https://github.com/bkennedyshit/Reddit_Plane_Submission',
-    liveUrl: '#',
+    primaryUrl: 'https://github.com/bkennedyshit/Reddit_Plane_Submission',
+    primaryLabel: 'View Code',
+    secondaryUrl: 'https://www.reddit.com/r/sky_racer_game_dev/',
+    secondaryLabel: 'Play Game',
   },
   {
     id: 'project-4',
-    title: 'Portfolio Platform',
-    description: 'Modern developer portfolio built for the DevOne Hackathon 2025. Showcasing projects, skills, and professional identity with clean design and smooth interactions.',
-    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'React', 'Framer Motion'],
+    title: 'GitHub',
+    description: 'Check out my full collection of projects, contributions, and open source work. From web apps to AI experiments, game development to automation tools.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Python', 'C++', 'C#', 'Rust'],
     imageUrlId: 'project-4',
-    githubUrl: 'https://github.com/bkennedyshit',
-    liveUrl: '#',
+    primaryUrl: 'https://github.com/bkennedyshit',
+    primaryLabel: 'View GitHub',
   },
 ];
 
@@ -69,8 +76,23 @@ export const skills: SkillCategory[] = [
       { name: 'Next.js', icon: SquareStack },
       { name: 'TypeScript', icon: FileCode },
       { name: 'Node.js', icon: Server },
+      { name: 'Python', icon: Code },
+      { name: 'C++', icon: Cpu },
+      { name: 'C#', icon: FileCode },
+      { name: 'Rust', icon: Cog },
+      { name: '.NET', icon: SquareStack },
       { name: 'Full Stack', icon: Database },
-      { name: 'AI/ML', icon: Atom },
+    ],
+  },
+  {
+    title: 'AI & Cloud',
+    skills: [
+      { name: 'AI/ML', icon: Bot },
+      { name: 'Automation', icon: GitBranch },
+      { name: 'Azure', icon: Cloud },
+      { name: 'AWS', icon: Cloud },
+      { name: 'OpenAI', icon: Bot },
+      { name: 'Content AI', icon: Bot },
     ],
   },
   {
@@ -88,11 +110,11 @@ export const skills: SkillCategory[] = [
     title: 'Creative & Systems',
     skills: [
       { name: 'Content Creation', icon: Figma },
-      { name: 'Automation', icon: GitBranch },
       { name: 'Systems Design', icon: Server },
       { name: 'Music Production', icon: Atom },
-    ]
-  }
+      { name: 'Video Editing', icon: SquareStack },
+    ],
+  },
 ];
 
 export const socialLinks = [

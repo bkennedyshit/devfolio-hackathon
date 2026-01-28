@@ -32,7 +32,7 @@ export default function Header() {
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
         <Link href="#home" className="flex items-center gap-2 font-bold text-xl">
           <Code2 className="text-primary" />
-          <span>DevFolio</span>
+          <span>William Kennedy</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium">
           {navLinks.map((link) => (
@@ -53,7 +53,7 @@ export default function Header() {
               <div className="flex flex-col gap-6 p-6">
                 <Link href="#home" className="flex items-center gap-2 font-bold text-xl">
                     <Code2 className="text-primary" />
-                    <span>DevFolio</span>
+                    <span>William Kennedy</span>
                 </Link>
                 <nav className="flex flex-col gap-4 pt-6">
                   {navLinks.map((link) => (

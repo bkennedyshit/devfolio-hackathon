@@ -4,7 +4,7 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Github, ExternalLink } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 
 type ProjectCardProps = {
   id: string;
@@ -12,8 +12,10 @@ type ProjectCardProps = {
   description: string;
   tech: string[];
   imageUrlId: string;
-  githubUrl: string;
-  liveUrl: string;
+  primaryUrl: string;
+  primaryLabel: string;
+  secondaryUrl?: string;
+  secondaryLabel?: string;
 };
 
 export default function ProjectCard({
@@ -21,8 +23,10 @@ export default function ProjectCard({
   description,
   tech,
   imageUrlId,
-  githubUrl,
-  liveUrl,
+  primaryUrl,
+  primaryLabel,
+  secondaryUrl,
+  secondaryLabel,
 }: ProjectCardProps) {
   const image = PlaceHolderImages.find((img) => img.id === imageUrlId);
 
@@ -54,18 +58,20 @@ export default function ProjectCard({
         </div>
       </CardContent>
       <CardFooter className="gap-4">
-        <Button asChild variant="outline" className="w-full">
-          <Link href={githubUrl} target="_blank" rel="noopener noreferrer">
-            <Github />
-            GitHub
-          </Link>
-        </Button>
         <Button asChild className="w-full">
-          <Link href={liveUrl} target="_blank" rel="noopener noreferrer">
+          <Link href={primaryUrl} target="_blank" rel="noopener noreferrer">
             <ExternalLink />
-            Live Demo
+            {primaryLabel}
           </Link>
         </Button>
+        {secondaryUrl && secondaryLabel && (
+          <Button asChild variant="outline" className="w-full">
+            <Link href={secondaryUrl} target="_blank" rel="noopener noreferrer">
+              <ExternalLink />
+              {secondaryLabel}
+            </Link>
+          </Button>
+        )}
       </CardFooter>
     </Card>
   );

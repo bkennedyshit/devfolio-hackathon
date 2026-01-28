@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
           <Link href="#home" className="flex items-center gap-2 font-bold text-xl">
             <Code2 className="text-primary" />
-            <span>DevFolio</span>
+            <span>William Kennedy</span>
           </Link>
           <div className="flex gap-4">
             {socialLinks.map((link) => (
@@ -27,7 +27,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} DevFolio. All rights reserved. Built for DevOne Hackathon 2025.
+          © {new Date().getFullYear()} William Kennedy. All rights reserved.
         </div>
       </div>
     </footer>

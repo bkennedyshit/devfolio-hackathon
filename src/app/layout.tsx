@@ -3,8 +3,8 @@ import { Toaster } from "@/components/ui/toaster";
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'DevFolio',
-  description: 'A modern, interactive developer portfolio built for DevOne Hackathon 2025.',
+  title: 'William Kennedy | Entrepreneur & Developer',
+  description: 'Full-stack developer and entrepreneur specializing in AI/ML, web development, 3D modeling, and creative systems.',
 };
 
 export default function RootLayout({

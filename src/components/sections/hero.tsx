@@ -12,7 +12,7 @@ export default function HeroSection() {
             William Kennedy
           </h1>
           <p className="mt-4 text-lg font-semibold text-primary sm:text-xl md:text-2xl">
-            NEPA AI Owner • Entrepreneur & Developer
+            Entrepreneur & Developer
           </p>
           <p className="mx-auto mt-6 max-w-2xl text-base text-muted-foreground md:text-lg">
             Full-range creative and systems creator specializing in 3D modeling, web development, 
