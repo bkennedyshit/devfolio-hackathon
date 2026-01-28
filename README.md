@@ -4,7 +4,7 @@ Personal portfolio showcasing projects, skills, and professional work.
 
 ## Live Site
 
-[billykennedy.nepa-ai.com](https://billykennedy.nepa-ai.com)
+[williamkennedy.nepa-ai.com](https://williamkennedy.nepa-ai.com)
 
 ## Tech Stack
 
