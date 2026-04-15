@@ -35,7 +35,7 @@ export const projects = [
     description: 'AI That Prevents $500K+ Construction Conflicts. Upload your project schedule and detect conflicts before trades arrive on site. Save millions in delays, rework, and coordination costs.',
     tech: ['Next.js', 'AI/ML', 'TypeScript', 'Construction Tech', 'Automation'],
     imageUrlId: 'project-2',
-    primaryUrl: 'https://nepa-ai.com/agents/',
+    primaryUrl: 'https://nepa-ai.com/mycelium',
     primaryLabel: 'View Webpage',
   },
   {
